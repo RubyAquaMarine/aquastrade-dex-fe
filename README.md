@@ -47,4 +47,6 @@ Make new _App Routes_
 - upgrade to wagmi + viem 2.0
 - marketplace
 - perps
-  See repo [aquastrade-fe](https://github.com/RubyAquaMarine/aquastrade-fe) (coming soon)
+  
+
+See repo [aquastrade-fe](https://github.com/RubyAquaMarine/aquastrade-fe) (coming soon)
