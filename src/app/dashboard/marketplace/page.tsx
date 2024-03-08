@@ -9,7 +9,7 @@
 
 import { useState, useEffect } from "react";
 import { Inter } from "next/font/google";
-import { createPublicClient, http, parseEther, parseUnits, getContract } from "viem";
+import { http, parseEther, parseUnits, getContract } from "viem";
 import {
   useAccount,
   useNetwork,

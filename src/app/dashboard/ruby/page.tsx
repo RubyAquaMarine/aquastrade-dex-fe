@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
-import {createPublicClient, http, parseEther } from 'viem'
+import { http, parseEther } from 'viem'
 import {
   useAccount,
   useNetwork, useSwitchNetwork,
@@ -33,10 +33,7 @@ const Home = () => {
   const [notification, setNotification] = useState('');
   const { address, isConnected } = useAccount();
 
-  const client = createPublicClient({
-    chain: activeChain,
-    transport: http()
-  })
+  
 
   //read contract
   const { data: rubyUser } = useContractRead({
