@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: white;
+  color: #0d0d10;
+}
+
+[data-theme="dark"] body {
+  background-color: #0d0d10;
+  color: white;
+}
+
+/* 
+background - should be consistent across elements
+#0d0d10
+
+boxes - toggle botton for light and dark mode 
+#1a1b1f
+*/
