@@ -224,13 +224,16 @@ const Home = () => {
           </div>
         </div>
 
-        <ul>
+        <ul className={styles_button.toggleButton}>
 
-          <li>Show Next available Bronze NFT : 0.3 ETH </li>
+          <li>Show Next available Bronze NFT : 0.03 ETH </li>
+          <li className={styles_button.toggleText}> 30000000000000000 wei</li>
           <li>Show Next available Silver NFT : 0.5 ETH</li>
+          <li className={styles_button.toggleText}> 500000000000000000 wei</li>
           <li>Show Next available Gold NFT : 1.5 ETH</li>
-          <li>1500000000000000000 wei</li>
-          <li> 300000000000000000 wei</li>
+          <li className={styles_button.toggleText}>1500000000000000000 wei</li>
+        
+          
         </ul>
 
 
