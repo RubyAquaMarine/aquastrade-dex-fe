@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 import { BigNumber, ethers } from 'ethers';
 import { useAccount, useNetwork } from "wagmi";

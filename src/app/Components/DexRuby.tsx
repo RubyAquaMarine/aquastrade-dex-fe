@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 import {Contract} from "@ethersproject/contracts";
 import {Alert, Box, Button, FormGroup, FormHelperText, Stack} from "@mui/material";

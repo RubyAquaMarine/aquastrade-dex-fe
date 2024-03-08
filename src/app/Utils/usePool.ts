@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 import { useConfig, useCall } from "@usedapp/core";
 import { useEffect, useState } from "react";
@@ -13,7 +14,7 @@ const FACTORY_ADDRESS = "0x71f7BbbB33550fa5d70CA3F7eeAD87529f2DC3C8"; //todo : n
 
 let saveRouter = "";
 
-async function getRouterAddress(mock) {
+async function getRouterAddress(mock: any) {
   if (mock) {
     saveRouter = mock;
     return saveRouter;

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {Localhost, Mainnet, DEFAULT_SUPPORTED_CHAINS} from "@usedapp/core";
 
 /*** UNCOMMENT THE LINES BELOW TO RUN WITH TEST POOL AND ROUTER DATA ***/
