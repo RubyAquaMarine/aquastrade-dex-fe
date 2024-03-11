@@ -16,11 +16,8 @@ export default async function Home() {
 
             <li><b>Bridge To Skale</b></li>
             <li> <Link href="https://meson.fi/" target="_blank">Meson - L2 to L2</Link></li>
-            <li> <Link href="https://bridge.skale.network/" target="_blank">Skale - Bridge</Link></li>
-            <li> <Link href="https://ruby.exchange/bridge.html" target="_blank">Europa - Bridge</Link></li>
-            <li className={styles.spaceDouble}>  <Link href="https://sfuel.skale.network/" target="_blank">Skale - sFUEL</Link></li>
-
-
+            <li> <Link href="/dashboard/metaport" target="_blank">Skale - Bridge</Link></li>
+          
             <li><b>Bridge To Ethereum </b></li>
             <li> <Link href="https://satellite.money/" target="_blank">Axelar: L2 to L1 </Link></li>
             <li> <Link href="https://cbridge.celer.network/56/1/USDC" target="_blank">cBridge: L2 to L1 </Link></li>
